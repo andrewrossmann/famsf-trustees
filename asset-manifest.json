@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/famsf-trustees/static/css/main.becfe89b.css",
+    "main.js": "/famsf-trustees/static/js/main.bc53cf3c.js",
+    "static/js/453.cf4e1978.chunk.js": "/famsf-trustees/static/js/453.cf4e1978.chunk.js",
+    "index.html": "/famsf-trustees/index.html",
+    "main.becfe89b.css.map": "/famsf-trustees/static/css/main.becfe89b.css.map",
+    "main.bc53cf3c.js.map": "/famsf-trustees/static/js/main.bc53cf3c.js.map",
+    "453.cf4e1978.chunk.js.map": "/famsf-trustees/static/js/453.cf4e1978.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.becfe89b.css",
+    "static/js/main.bc53cf3c.js"
+  ]
+}
