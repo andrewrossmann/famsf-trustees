@@ -126,6 +126,9 @@ export const FAMSFHero: React.FC = () => {
             </button>
           </motion.div>
 
+          {/* Desktop-only spacing below buttons */}
+          <div className="h-0 md:h-16"></div>
+
           {/* Footer Note - Mobile Optimized */}
           <motion.div 
             className="mt-8 md:mt-16 text-white/60"
