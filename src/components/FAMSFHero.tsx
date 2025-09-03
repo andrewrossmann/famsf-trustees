@@ -26,7 +26,7 @@ export const FAMSFHero: React.FC = () => {
       </div>
 
       {/* Content - Mobile Optimized */}
-      <div className="relative z-10 flex items-start md:items-center justify-center min-h-screen pt-4 md:pt-0">
+      <div className="relative z-10 flex items-start md:items-start justify-center min-h-screen pt-4 md:pt-8">
         <div className="container mx-auto px-4 md:px-6 text-center text-white">
           {/* Main Heading - Mobile Optimized */}
           <motion.h1 
