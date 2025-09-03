@@ -1,13 +1,11 @@
 import React from 'react';
 import './index.css';
-import { Header } from './components/Header';
-import { Dashboard } from './components/Dashboard';
+import { FAMSFHero } from './components/FAMSFHero';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Dashboard />
+      <FAMSFHero />
     </div>
   );
 }

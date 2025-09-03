@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://p.typekit.net/p.css?s=1&k=tpb7nan&ht=tk&f=32589.32590.32591.32592.32593.32594.32595.32596&a=3924907&app=typekit&e=css');
+
 @layer base {
   body {
     @apply bg-gray-50 text-gray-900 font-sans;
@@ -23,5 +25,216 @@
   
   .input-field {
     @apply w-full px-4 py-3 border border-gray-300 rounded-2xl focus:ring-2 focus:ring-primary-500 focus:border-transparent transition-all duration-200;
+  }
+
+  /* FAMSF Typography System - Exact from sarcophagus.html */
+  .f-body-1 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-body-2 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    letter-spacing: 0.0125em;
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-body-3 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    letter-spacing: 0.0125em;
+    line-height: 1.35;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-body-4 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 400;
+    letter-spacing: 0.0125em;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-heading-1 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.3125rem;
+    font-weight: 500;
+    letter-spacing: 0.0125em;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-heading-1-serif {
+    font-family: Signifier, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 1.3125rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-heading-2 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    line-height: 1.20;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-heading-3 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-heading-3-serif {
+    font-family: Signifier, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-heading-8 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-heading-8-serif {
+    font-family: Signifier, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 0em;
+    line-height: 1.2;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-ui-1 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .f-ui-3 {
+    font-family: "akzidenz-grotesk-next-pro", "Akzidenz-Grotesk Next", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: 0.0175em;
+    line-height: 1.25;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Responsive typography adjustments */
+  @media (min-width: 768px) {
+    .f-heading-8 {
+      font-size: 4rem;
+    }
+    .f-heading-8-serif {
+      font-size: 4rem;
+    }
+    .f-heading-3 {
+      font-size: 2rem;
+    }
+    .f-heading-3-serif {
+      font-size: 2rem;
+    }
+    .f-body-4 {
+      font-size: 1.5rem;
+      letter-spacing: 0.0075em;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .f-heading-8 {
+      font-size: 5.25rem;
+    }
+    .f-heading-8-serif {
+      font-size: 5.25rem;
+    }
+    .f-heading-3 {
+      font-size: 2.25rem;
+    }
+    .f-heading-3-serif {
+      font-size: 2.25rem;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .f-heading-8 {
+      font-size: 7rem;
+      line-height: 1.15;
+    }
+    .f-heading-8-serif {
+      font-size: 7rem;
+      line-height: 1.15;
+    }
+    .f-heading-3 {
+      font-size: 2.5rem;
+    }
+    .f-heading-3-serif {
+      font-size: 2.5rem;
+    }
+    .f-body-4 {
+      font-size: 1.75rem;
+      letter-spacing: 0.0025em;
+    }
+  }
+
+  @media (min-width: 1681px) {
+    .f-heading-8 {
+      font-size: 8rem;
+      letter-spacing: -0.01em;
+    }
+    .f-heading-8-serif {
+      font-size: 8rem;
+    }
+    .f-heading-3 {
+      font-size: 2.25rem;
+    }
+    .f-heading-3-serif {
+      font-size: 2.25rem;
+    }
+    .f-body-4 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 1920px) {
+    .f-heading-8 {
+      font-size: 9rem;
+    }
+    .f-heading-8-serif {
+      font-size: 9rem;
+    }
+    .f-heading-3 {
+      font-size: 3.5rem;
+    }
+    .f-heading-3-serif {
+      font-size: 3.5rem;
+    }
+    .f-body-4 {
+      font-size: 2.25rem;
+    }
   }
 }
