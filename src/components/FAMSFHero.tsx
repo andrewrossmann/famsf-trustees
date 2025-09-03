@@ -10,7 +10,7 @@ export const FAMSFHero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('/assets/A363698_V3_crop.jpeg')`,
+          backgroundImage: `url('${process.env.PUBLIC_URL}/assets/A363698_V3_crop.jpeg')`,
         }}
       >
         <div className="absolute inset-0 bg-black/40"></div>
@@ -19,7 +19,7 @@ export const FAMSFHero: React.FC = () => {
       {/* Logo in Upper Left Corner */}
       <div className="absolute top-8 left-8 z-20">
         <img 
-          src="/assets/logo_lightgray.png" 
+          src={`${process.env.PUBLIC_URL}/assets/logo_lightgray.png`}
           alt="FAMSF Logo" 
           className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 opacity-90 hover:opacity-100 transition-opacity duration-300"
         />
