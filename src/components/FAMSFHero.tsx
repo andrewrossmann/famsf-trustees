@@ -16,6 +16,15 @@ export const FAMSFHero: React.FC = () => {
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
+      {/* Logo in Upper Left Corner */}
+      <div className="absolute top-8 left-8 z-20">
+        <img 
+          src="/assets/logo_lightgray.png" 
+          alt="FAMSF Logo" 
+          className="w-20 h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 opacity-90 hover:opacity-100 transition-opacity duration-300"
+        />
+      </div>
+
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen">
         <div className="container mx-auto px-4 text-center text-white">
