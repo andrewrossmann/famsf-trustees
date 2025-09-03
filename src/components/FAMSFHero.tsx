@@ -149,7 +149,7 @@ export const FAMSFHero: React.FC = () => {
             transition={{ duration: 1, delay: 1.2 }}
           >
             <p className="f-body-1 mb-2 text-sm md:text-base">Fine Arts Museums of San Francisco</p>
-            <p className="f-body-1 text-xs md:text-sm">Strengthening communication, collaboration, and engagement among our distinguished board members</p>
+            <p className="f-body-1 text-xs md:text-sm font-bold italic">Strengthening communication, collaboration, and engagement among our distinguished board members</p>
           </motion.div>
         </div>
       </div>
