@@ -46,13 +46,13 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
-                  <Landmark className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="f-heading-1 text-white mb-2">Dashboard</h3>
-                <p className="f-body-1 text-white/70">Overview & quick access</p>
+                          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
+                <Landmark className="w-8 h-8 text-white" />
               </div>
+              <h3 className="f-body-1 text-white mb-2">Dashboard</h3>
+              <p className="f-body-1 text-white/70">Overview & quick access</p>
+            </div>
             </motion.div>
 
             {/* Calendar */}
@@ -61,13 +61,13 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
-                  <Calendar className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="f-heading-1 text-white mb-2">Calendar</h3>
-                <p className="f-body-1 text-white/70">Events & meetings</p>
+                          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
+                <Calendar className="w-8 h-8 text-white" />
               </div>
+              <h3 className="f-body-1 text-white mb-2">Calendar</h3>
+              <p className="f-body-1 text-white/70">Events & meetings</p>
+            </div>
             </motion.div>
 
             {/* Documents */}
@@ -76,13 +76,13 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
-                  <FileText className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="f-heading-1 text-white mb-2">Documents</h3>
-                <p className="f-body-1 text-white/70">Board packets & reports</p>
+                          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
+                <FileText className="w-8 h-8 text-white" />
               </div>
+              <h3 className="f-body-1 text-white mb-2">Documents</h3>
+              <p className="f-body-1 text-white/70">Board packets & reports</p>
+            </div>
             </motion.div>
 
             {/* Directory */}
@@ -91,13 +91,13 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
-                  <Users className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="f-heading-1 text-white mb-2">Directory</h3>
-                <p className="f-body-1 text-white/70">Trustee profiles</p>
+                          <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/30 transition-colors">
+                <Users className="w-8 h-8 text-white" />
               </div>
+              <h3 className="f-body-1 text-white mb-2">Directory</h3>
+              <p className="f-body-1 text-white/70">Trustee profiles</p>
+            </div>
             </motion.div>
           </motion.div>
 
