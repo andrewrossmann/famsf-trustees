@@ -30,7 +30,7 @@ export const FAMSFHero: React.FC = () => {
         <div className="container mx-auto px-4 md:px-6 text-center text-white">
           {/* Main Heading - Mobile Optimized */}
           <motion.h1 
-            className="f-heading-8-serif mb-4 md:mb-6 text-white text-4xl md:text-6xl lg:text-7xl"
+            className="f-heading-8-serif mb-4 md:mb-6 text-white text-4xl md:text-6xl lg:text-7xl mt-0 md:mt-2"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -41,6 +41,8 @@ export const FAMSFHero: React.FC = () => {
           {/* Spacing Rows - Mobile Optimized */}
           <div className="h-4 md:h-16 lg:h-24"></div>
           <div className="h-4 md:h-16 lg:h-24"></div>
+          {/* Additional desktop-only spacing to lower all content below header */}
+          <div className="h-0 md:h-2"></div>
 
           {/* Quick Access Grid - Mobile Optimized */}
           <motion.div 
