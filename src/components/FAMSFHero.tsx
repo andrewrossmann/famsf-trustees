@@ -26,7 +26,7 @@ export const FAMSFHero: React.FC = () => {
       </div>
 
       {/* Content - Mobile Optimized */}
-      <div className="relative z-10 flex items-start md:items-start justify-center min-h-screen pt-4 md:pt-8">
+      <div className="relative z-10 flex items-start md:items-center justify-center min-h-screen pt-4 md:pt-12">
         <div className="container mx-auto px-4 md:px-6 text-center text-white">
           {/* Main Heading - Mobile Optimized */}
           <motion.h1 
@@ -41,9 +41,6 @@ export const FAMSFHero: React.FC = () => {
           {/* Spacing Rows - Mobile Optimized */}
           <div className="h-4 md:h-16 lg:h-24"></div>
           <div className="h-4 md:h-16 lg:h-24"></div>
-          {/* Additional desktop-only spacing rows for 1 inch lower positioning */}
-          <div className="h-0 md:h-16 lg:h-16"></div>
-          <div className="h-0 md:h-16 lg:h-16"></div>
 
           {/* Quick Access Grid - Mobile Optimized */}
           <motion.div 
