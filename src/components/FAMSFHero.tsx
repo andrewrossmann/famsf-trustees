@@ -41,9 +41,6 @@ export const FAMSFHero: React.FC = () => {
           {/* Spacing Rows - Mobile Optimized */}
           <div className="h-4 md:h-16 lg:h-24"></div>
           <div className="h-4 md:h-16 lg:h-24"></div>
-          {/* Additional spacing rows for 2 inches lower positioning */}
-          <div className="h-8 md:h-16 lg:h-24"></div>
-          <div className="h-8 md:h-16 lg:h-24"></div>
 
           {/* Quick Access Grid - Mobile Optimized */}
           <motion.div 
