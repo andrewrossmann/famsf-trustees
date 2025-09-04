@@ -5,7 +5,7 @@ import { Landmark } from 'lucide-react';
 
 export const FAMSFHero: React.FC = () => {
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden w-full max-w-full overflow-x-hidden">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -46,7 +46,7 @@ export const FAMSFHero: React.FC = () => {
 
           {/* Quick Access Grid - Mobile Optimized */}
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 max-w-6xl mx-auto mb-8 md:mb-12 px-12 md:px-0"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 max-w-6xl mx-auto mb-8 md:mb-12 px-16 md:px-0"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
