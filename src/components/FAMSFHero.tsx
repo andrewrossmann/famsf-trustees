@@ -57,7 +57,7 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="bg-white/5 md:bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3 md:mb-4 group-hover:bg-white/30 transition-colors">
                   <Landmark className="w-6 h-6 md:w-8 md:h-8 text-white" />
                 </div>
@@ -72,7 +72,7 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="bg-white/5 md:bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3 md:mb-4 group-hover:bg-white/30 transition-colors">
                   <Calendar className="w-6 h-6 md:w-8 md:h-8 text-white" />
                 </div>
@@ -87,7 +87,7 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="bg-white/5 md:bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3 md:mb-4 group-hover:bg-white/30 transition-colors">
                   <FileText className="w-6 h-6 md:w-8 md:h-8 text-white" />
                 </div>
@@ -102,7 +102,7 @@ export const FAMSFHero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <div className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
+              <div className="bg-white/5 md:bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-3 md:p-6 hover:bg-white/20 transition-all duration-300">
                 <div className="w-12 h-12 md:w-16 md:h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-3 md:mb-4 group-hover:bg-white/30 transition-colors">
                   <Users className="w-6 h-6 md:w-8 md:h-8 text-white" />
                 </div>
