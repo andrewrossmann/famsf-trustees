@@ -9,11 +9,19 @@
     @apply bg-gray-50 text-gray-900 font-sans;
     overflow-x: hidden;
     max-width: 100vw;
+    position: relative;
   }
   
   html {
     overflow-x: hidden;
     max-width: 100vw;
+    position: relative;
+  }
+  
+  #root {
+    overflow-x: hidden;
+    max-width: 100vw;
+    position: relative;
   }
 }
 
