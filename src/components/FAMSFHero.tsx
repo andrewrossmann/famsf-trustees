@@ -21,7 +21,7 @@ export const FAMSFHero: React.FC = () => {
         <img 
           src={`${process.env.PUBLIC_URL}/assets/logo_lightgray.png`}
           alt="FAMSF Logo" 
-          className="w-15 h-15 md:w-30 md:h-30 lg:w-35 lg:h-35 opacity-90 hover:opacity-100 transition-opacity duration-300"
+          className="w-11 h-11 md:w-22 md:h-22 lg:w-26 lg:h-26 opacity-90 hover:opacity-100 transition-opacity duration-300"
         />
       </div>
 
