@@ -26,8 +26,8 @@ export const FAMSFHero: React.FC = () => {
       </div>
 
       {/* Content - Mobile Optimized */}
-      <div className="relative z-10 flex items-start md:items-center justify-center min-h-screen pt-4 md:pt-14">
-        <div className="container mx-auto px-4 md:px-6 text-center text-white">
+      <div className="relative z-10 flex items-start md:items-center justify-center min-h-screen pt-4 md:pt-14 overflow-x-hidden">
+        <div className="container mx-auto px-4 md:px-6 text-center text-white w-full max-w-full">
           {/* Main Heading - Mobile Optimized */}
           <motion.h1 
             className="f-heading-8-serif mb-4 md:mb-6 text-white text-4xl md:text-8xl lg:text-9xl mt-28 md:mt-2 break-words"
@@ -46,7 +46,7 @@ export const FAMSFHero: React.FC = () => {
 
           {/* Quick Access Grid - Mobile Optimized */}
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 max-w-6xl mx-auto mb-8 md:mb-12 px-4 md:px-0"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 max-w-6xl mx-auto mb-8 md:mb-12 px-12 md:px-0"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
