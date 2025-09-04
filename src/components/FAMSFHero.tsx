@@ -17,7 +17,7 @@ export const FAMSFHero: React.FC = () => {
       </div>
 
       {/* Logo in Upper Left Corner - Mobile Optimized */}
-      <div className="absolute top-4 left-4 md:top-8 md:left-8 z-20 max-w-[calc(100vw-2rem)]">
+      <div className="absolute top-4 left-4 md:top-6 md:left-8 z-20 max-w-[calc(100vw-2rem)]">
         <img 
           src={`${process.env.PUBLIC_URL}/assets/logo_lightgray.png`}
           alt="FAMSF Logo" 
