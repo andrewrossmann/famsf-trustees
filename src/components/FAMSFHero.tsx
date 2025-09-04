@@ -46,7 +46,7 @@ export const FAMSFHero: React.FC = () => {
 
           {/* Quick Access Grid - Mobile Optimized */}
           <motion.div 
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 max-w-6xl mx-auto mb-8 md:mb-12 px-2 md:px-0"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6 max-w-sm md:max-w-6xl mx-auto mb-8 md:mb-12 px-2 md:px-0"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
