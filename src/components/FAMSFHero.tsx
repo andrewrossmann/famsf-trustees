@@ -53,7 +53,7 @@ export const FAMSFHero: React.FC = () => {
           >
             {/* Dashboard */}
             <motion.div 
-              className="group cursor-pointer max-w-xs md:max-w-none mx-auto"
+              className="group cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -68,7 +68,7 @@ export const FAMSFHero: React.FC = () => {
 
             {/* Calendar */}
             <motion.div 
-              className="group cursor-pointer max-w-xs md:max-w-none mx-auto"
+              className="group cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -83,7 +83,7 @@ export const FAMSFHero: React.FC = () => {
 
             {/* Documents */}
             <motion.div 
-              className="group cursor-pointer max-w-xs md:max-w-none mx-auto"
+              className="group cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -98,7 +98,7 @@ export const FAMSFHero: React.FC = () => {
 
             {/* Directory */}
             <motion.div 
-              className="group cursor-pointer max-w-xs md:max-w-none mx-auto"
+              className="group cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
