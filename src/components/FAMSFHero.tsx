@@ -133,7 +133,7 @@ export const FAMSFHero: React.FC = () => {
 
           {/* Footer Note - Mobile Optimized */}
           <motion.div 
-            className="mt-8 md:mt-14 text-white/60"
+            className="mt-8 md:mt-6 text-white/60"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
@@ -143,12 +143,12 @@ export const FAMSFHero: React.FC = () => {
 
           {/* Additional Footer Text - Mobile Optimized */}
           <motion.div 
-            className="mt-8 md:mt-2 text-white/60"
+            className="mt-4 md:mt-1 text-white/60"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.2 }}
           >
-            <p className="f-body-1 mb-2 text-sm md:text-base">Fine Arts Museums of San Francisco</p>
+            <p className="f-body-1 mb-1 md:mb-0 text-sm md:text-base">Fine Arts Museums of San Francisco</p>
             <p className="f-body-1 text-xs md:text-sm font-bold italic">Strengthening communication, collaboration, and engagement among our distinguished board members</p>
           </motion.div>
         </div>
