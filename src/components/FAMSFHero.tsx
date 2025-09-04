@@ -133,7 +133,7 @@ export const FAMSFHero: React.FC = () => {
 
           {/* Footer Note - Mobile Optimized */}
           <motion.div 
-            className="mt-8 md:mt-16 text-white/60"
+            className="mt-8 md:mt-14 text-white/60"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
