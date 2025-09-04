@@ -30,7 +30,7 @@ export const FAMSFHero: React.FC = () => {
         <div className="container mx-auto px-4 md:px-6 text-center text-white">
           {/* Main Heading - Mobile Optimized */}
           <motion.h1 
-            className="f-heading-8-serif mb-4 md:mb-6 text-white text-4xl md:text-8xl lg:text-9xl mt-28 md:mt-2"
+            className="f-heading-8-serif mb-4 md:mb-6 text-white text-5xl md:text-8xl lg:text-9xl mt-28 md:mt-2"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
